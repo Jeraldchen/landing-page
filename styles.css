@@ -3,7 +3,7 @@ body {
     flex-direction: column;
 }
 
-.container {
+.container1 {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
@@ -63,4 +63,22 @@ button {
 
 .img-txt {
     padding: 50px 0;
+}
+
+.img-subtext {
+    display: flex;
+    gap: 32px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
 }
