@@ -82,3 +82,23 @@ button {
     font-weight: 800;
     color: #1f2937;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-txt {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-owner {
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: 800;
+}
