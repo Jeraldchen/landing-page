@@ -38,7 +38,7 @@ img {
     margin-left: auto;
     padding: 80px 0 100px 0px;
     height: 200px;
-    width: auto;
+    width: 200px;
 }
 
 .main-txt {
@@ -52,7 +52,7 @@ img {
     color: #e5e7eb;
 }
 
-button {
+.button1 {
     background-color: #3882f6;
     font-weight: 800;
     color: #F9FAF8;
@@ -67,7 +67,7 @@ button {
 
 .img-subtext {
     display: flex;
-    gap: 32px;
+    gap: 64px;
 }
 
 .container2 {
@@ -86,19 +86,49 @@ button {
 .quote-section {
     background-color: #e5e7eb;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .quote-txt {
+    display: flex;
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
+    font-weight: 100;
+    justify-content: center;
 }
 
 .quote-owner {
+    display: flex;
     font-size: 18px;
     color: #1f2937;
     font-weight: 800;
+    justify-content: right;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 32px 128px;
+    gap: 64px;
+    align-items: center;
+    margin: 64px;
+}
+
+.button2 {
+    background-color: #3882f6;
+    font-weight: 800;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 8px 16px;
+    height: 40px;
+    width: 140px;
 }
